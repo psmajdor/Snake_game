@@ -172,7 +172,7 @@ function checkGameOver() {
 function displayGameOver() {
     ctx.font = "60px Roboto";
     if(gameWidth < 500){
-        ctx.font = "24px Roboto"
+        ctx.font = "30px Roboto"
     }
     ctx.fillStyle = "black";
     ctx.textAlign = "center";
