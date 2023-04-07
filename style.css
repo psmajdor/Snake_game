@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    font-family: 'Abel', sans-serif;
+    padding: 0;
+    margin: 5px;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgb(210, 255, 205);
+}
+
+#gameContainer {
+    text-align: center;
+}
+
+#gameBoard {
+    border: 3px solid;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+#scoreText {
+    font-size: 80px;
+}
+
+#resetButton {
+    background-color: rgb(217, 63, 63);
+}
+
+#startButton {
+    background-color: rgb(36, 183, 119);
+}
+
+.panel {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#scoreText {
+    margin: 0 auto;
+}
+
+.operationPanel {
+    margin-top: 40px;
+    padding-right: 103px;
+}
+
+.button {
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.moveButtons {
+    margin: 0;
+    background-color: rgb(20, 160, 230);
+}
+
+@media (max-width: 720px) {
+    #gameBoard {
+        border: 3px solid;
+        width: 500px;
+        height: 500px;
+    }
+    .button {
+        font-size: 18px;
+        width: 120px;
+        height: 50px;
+        border: 3px solid;
+    }
+    .operationPanel {
+        margin-top: 50px;
+    }
+    #scoreText {
+        margin: 20px auto;
+    }
+    .movingPanel {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #gameBoard {
+        border: 3px solid;
+        width: 400px;
+        height: 400px;
+    }
+    .button {
+        font-size: 20px;
+        width: 100px;
+        height: 50px;
+        border: 3px solid;
+    }
+    .operationPanel {
+        padding-right: 40px;
+        margin-top: 70px;
+    }
+    #scoreText {
+        margin: 50px auto;
+    }
+    .movingPanel {
+        margin-top: 20px;
+    }
+}
+
